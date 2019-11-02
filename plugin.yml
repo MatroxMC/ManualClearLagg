@@ -1,0 +1,11 @@
+name: ManualClearLagg
+main: Matroxplay\ManualClearLagg\Main
+version: 0.0.1
+api: 3.9.7
+author: Matroxplay
+description: A simple plugin to manually clearlagg
+commands:
+ clearlagg:
+  description: "Manually clearlagg"
+  usage: "/clearlagg"
+  permission: aaaaaaaaaaa.cmd
