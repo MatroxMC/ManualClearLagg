@@ -8,4 +8,4 @@ commands:
  clearlagg:
   description: "Manually clearlagg"
   usage: "/clearlagg"
-  permission: aaaaaaaaaaa.cmd
+  permission: clearlagg.cmd
