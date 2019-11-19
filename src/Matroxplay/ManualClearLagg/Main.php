@@ -9,10 +9,6 @@ use pocketmine\entity\object\ItemEntity;
 
 class Main extends PluginBase{
 
-	public function onEnable() : void{
-		$this->getLogger()->info("§aEnable !");
-	}
-
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
 			case "clearlagg":
@@ -31,9 +27,5 @@ class Main extends PluginBase{
         $ret = 0;
 				return true;
 		}
-	}
-
-	public function onDisable() : void{
-		$this->getLogger()->info("§cDisable");
 	}
 }
