@@ -30,9 +30,9 @@ class Main extends PluginBase{
             }
         }
         if ($rettnt > 1) {
-            $sender->sendMessage("§c>> $rettnt and §r$ret items have been removed !");
+            $sender->sendMessage("§c>>§r $rettnt TNT and §r$ret items have been removed !");
         }else {
-            $sender->sendMessage("§c>> §r$ret items have been removed !");
+            $sender->sendMessage("§c>>§r $ret items have been removed !");
         }
         $ret = 0;
         $rettnt = 0;
