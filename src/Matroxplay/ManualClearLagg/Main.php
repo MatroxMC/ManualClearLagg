@@ -35,6 +35,7 @@ class Main extends PluginBase{
             $sender->sendMessage("§c>> §r$ret items have been removed !");
         }
         $ret = 0;
+        $rettnt = 0;
 				return true;
 		}
 	}
